@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: "";
+}
+
+body {
+  background-color: #140f1e;
+  color: #ffffff;
+}
+
+:root {
+  --secondary-clr: #ffe079;
+
+  /*Knap farver*/
+  --primary-textClr: #0000;
+  --hover-background: #fff2c9;
+  --hover-text: #545454;
+  --active-background: #ffeeb4;
+  --active-stroke: #ffd753;
+  --focus-stroke: #ffd035;
+  /*Download App Knap*/
+  --default-bg-clr: #f1f1fc;
+  --default-stroke-clr: #4c3973;
+  --default-text-clr: #1d1d23;
+}
