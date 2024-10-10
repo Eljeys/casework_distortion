@@ -10,7 +10,7 @@ body {
   color: #ffffff;
 }
 
-:root {
+html {
   --secondary-clr: #ffe079;
 
   /*Knap farver*/
@@ -24,4 +24,79 @@ body {
   --default-bg-clr: #f1f1fc;
   --default-stroke-clr: #4c3973;
   --default-text-clr: #1d1d23;
+
+  /*Typografi desktop*/
+  --fontsize-h1: 6rem;
+  --fontsize-h2: 4rem;
+  --fontsize-h3: 3.5rem;
+  --fontsize-h4: 3rem;
+  --fontsize-p: 2rem;
+  --fomtsize-link: 2.5rem;
+
+  --fontweight-bold: 900;
+  --fontweight-semibold: 600;
+  --fontweight-regular: 400;
+  --fontweight-bold-link: 900;
+  --fontweight-semibold-link: 600;
+
+  --lineheight-heading: 9.375rem;
+  --lineheight-p: 7.5rem;
+  --lineheight-link: 7.5rem;
+
+  /*typografi mobil*/
+  --fontsize-h1: 2.75rem;
+  --fontsize-h2: 2.5rem;
+  --fontsize-h3: 2rem;
+  --fontsize-p: 1.125rem;
+  --fomtsize-link: 1rem;
+
+  --fontweight-bold: bold;
+  --fontweight-semibold: 600;
+  --fontweight-regular: 400;
+
+  --lineheight-heading: 7.5rem;
+  --lineheight-p: 7.5rem;
+  --lineheight-link: 7.5rem;
+}
+
+h1 {
+  font-size: var(--fontsize-h1);
+  font-weight: var(--fontweight-bold);
+}
+h2 {
+  font-size: var(--fontsize-h2);
+  font-weight: var(--fontweight-semibold);
+}
+h3 {
+  font-size: var(--fontsize-h3);
+  font-weight: var(--fontweight-semibold);
+}
+h4 {
+  font-size: var(--fontsize-h4);
+  font-weight: var(--fontweight-semibold);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  color: var(--secondary-clr);
+  line-height: var(--lineheight-heading);
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: var(--fontsize-p);
+  font-weight: var(--fontweight-regular);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100;
+  height: auto;
+  display: block;
 }
